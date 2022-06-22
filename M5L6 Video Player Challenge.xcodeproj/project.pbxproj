@@ -11,6 +11,7 @@
 		CA2B32342862EB8200021F8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B32332862EB8200021F8B /* ContentView.swift */; };
 		CA2B32362862EB8400021F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2B32352862EB8400021F8B /* Assets.xcassets */; };
 		CA2B32392862EB8400021F8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2B32382862EB8400021F8B /* Preview Assets.xcassets */; };
+		CA2B32412862EC3000021F8B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2B32402862EC3000021F8B /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CA2B32332862EB8200021F8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA2B32352862EB8400021F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2B32382862EB8400021F8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA2B32402862EC3000021F8B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2B32412862EC3000021F8B /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +40,7 @@
 			children = (
 				CA2B32302862EB8200021F8B /* M5L6 Video Player Challenge */,
 				CA2B322F2862EB8200021F8B /* Products */,
+				CA2B323F2862EC3000021F8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				CA2B32382862EB8400021F8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA2B323F2862EC3000021F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2B32402862EC3000021F8B /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
